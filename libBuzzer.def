@@ -1,0 +1,6 @@
+; dlltool --base-file C:\DOKUME~1\Hawkear\LOKALE~1\Temp/cca00916.base --output-exp Buzzer.exp --dllname Buzzer.dll --output-def libBuzzer.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup@12 --def C:\DOKUME~1\Hawkear\LOKALE~1\Temp/cca00916.def --output-lib libBuzzer.a
+EXPORTS
+	BuzzerGetButtons @ 1
+	BuzzerOpen @ 2
+	BuzzerSetLEDs @ 3
+	BuzzerClose @ 4
